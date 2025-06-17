@@ -15,13 +15,15 @@ This project was implemented as a way to learn TypeScript, Express, API design, 
 
 ## ⚡ API Endpoints
 
-✅ POST /tasks — Create a new task
-✅ GET /tasks — Retrieve all tasks
-✅ GET /tasks/:id — Retrieve a task by its ID
-✅ PUT /tasks/:id — Update a task by its ID
-✅ DELETE /tasks/:id — Delete a task by its ID
+| Method | Endpoint        | Description                      | Status |
+|--------|-----------------|----------------------------------|--------|
+| POST   | `/tasks`        | Create a new task                | ✅     |
+| GET    | `/tasks`        | Retrieve all tasks               | ✅     |
+| GET    | `/tasks/:id`    | Retrieve a specific task by ID   | ✅     |
+| PUT    | `/tasks/:id`    | Update a task by ID              | ✅     |
+| DELETE | `/tasks/:id`    | Delete a task by ID              | ✅     |
 
-✨ Happy coding! ✨ 
+
 
 ## 🔹 Tech Stack
 
@@ -30,4 +32,6 @@ This project was implemented as a way to learn TypeScript, Express, API design, 
 - Node.js
 - Prisma ORM
 - PostgreSQL
+
+✨ Happy coding! ✨ 
 
